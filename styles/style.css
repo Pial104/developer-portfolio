@@ -58,17 +58,68 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom 0;
 }
 
 .banner{
     padding: 30px 30px 30px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
 }
 
 .banner .profile-pic{
     width: 500px;
 }
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom:0 ;
+}
+
+.banner-title{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700 ;
+}
+
+
+/* Main sention */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+}
+
+.section-title{
+    text-align: center; 
+    color: #181818; 
+    font-size: 35px; 
+    font-family: Open Sans; 
+    font-weight: 700; 
+
+}
+
+.section-description{
+    width: 100%;
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+
+
+
+
 
 
 
